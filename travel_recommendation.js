@@ -1,10 +1,12 @@
 let nameElement;
 let resultDiv;
+let hContent;
 
 window.onload = function(){
   nameElement = document.getElementById("nameC");
   resultDiv = document.getElementById('result1');
   resultDiv2 = document.getElementById('result2');
+  hContent = document.getElementById('content');
 }
 
 function searchCondition() {
