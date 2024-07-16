@@ -12,6 +12,7 @@ window.onload = function(){
 function searchCondition() {
   const input = document.getElementById('search-input').value.toLowerCase();
   resultDiv.innerHTML = '';
+  hContent.innerHTML ='';
 const resulContainer = document.createElement('div');
 
 
