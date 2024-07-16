@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>travel Recommendation</title>
+    <link rel="stylesheet" type="text/css" href="./styleHome.css">
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="./travel_recommendation.js"></script>
+</head>
+<body>
+
+    <nav>
+        <ul>
+          <li><a href="./home.html">Home</a></li>
+          <li><a href="./aboutus.html">About Us</a></li>
+          <li><a href="./contactUs.html">Contact Us</a></li>
+          <li><a href="./travel_recommendation.html">Recommendations</a></li>
+        </ul>
+        <form>
+          <input type="search" id="search-input" placeholder="Search for recommendations">
+          <button onclick="searchCondition()" type="button" id="btnSearch">Search</button>
+          <button onclick="reset()" type="submit">Reset</button>
+        </form>
+      </nav>
+
+      <div class="items">
+        <a href="https://www.facebook.com/geeksforgeeks.org/">
+            <i class="fa fa-facebook-official" 
+                style="font-size: 24px; color: #fff">
+            </i>
+        </a>
+        <a href="https://www.instagram.com/geeks_for_geeks/">
+            <i class="fa fa-instagram" 
+                style="font-size: 24px; color: #fff;">
+            </i>
+        </a>
+        <a href="https://in.linkedin.com/company/geeksforgeeks">
+            <i class="fa fa-linkedin-square" 
+                style="font-size: 24px; color: #fff">
+            </i>
+        </a>
+        <a href="https://www.youtube.com/geeksforgeeksvideos">
+            <i class="fa fa-youtube-play" 
+                style="font-size: 24px; color: #fff">
+            </i>
+        </a>
+        <a href="https://twitter.com/geeksforgeeks">
+            <i class="fa fa-twitter-square" 
+                style="font-size: 24px; color: #fff">
+            </i>
+        </a>
+    </div>
+    
+    <div class="content">
+      
+      <h1>Geeks Tours Mystery Agency</h1>
+      <h2>Hello, where do you want to go?</h2>
+      
+
+      <div class="outer-cards">
+          <div class="cards">
+              <div id="card1">
+                  <img src=
+"https://media.geeksforgeeks.org/auth-dashboard-uploads/read.png" />
+                  <h4>
+                      Don't travel; you are lame and probably a disgrace for your home country
+                  </h4>
+                  <p>
+                    People will probably hate you even more if you can't speak their language
+                  </p>
+              </div>
+              <div id="card2">
+                  <img src=
+"https://media.geeksforgeeks.org/auth-dashboard-uploads/practice.png" />
+                  <h4>There is no desk at Wien Airport for people that have confused Australia and Austria</h4>
+                  <p>
+                    Let's face it: you will end up in a foreign museum while you don't even visit your home country's museums
+                  </p>
+              </div>
+          </div>
+      </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
+
